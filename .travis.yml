@@ -1,0 +1,8 @@
+language: rust
+os: osx
+cache: cargo
+rust:
+  - stable
+  - 1.31.0
+script:
+  - cargo run
